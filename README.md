@@ -49,10 +49,12 @@ class Code extends Taro.Component {
 
 ### QRCode
 
-| Prop                | Type     | Default |
-| ------------------- | -------- | ------- |
-| `text`              | `string` | `''`    |
-| `size`              | `number` | `300`   |
-| `scale`             | `number` | `4`     |
-| `typeNumber`        | `number` | `2`     |
-| `errorCorrectLevel` | `string` | `'M'`   |
+| Prop                | Type     | Default   |
+| ------------------- | -------- | --------- |
+| `text`              | `string` | `''`      |
+| `size`              | `number` | `300`     |
+| `scale`             | `number` | `4`       |
+| `typeNumber`        | `number` | `2`       |
+| `errorCorrectLevel` | `string` | `'M'`     |
+| `foregroundColor`   | `string` | `#000000` |
+| `backgroundColor`   | `string` | `#ffffff` |

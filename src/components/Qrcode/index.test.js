@@ -15,4 +15,14 @@ describe('QRCode test', () => {
     )
     expect(component).toMatchSnapshot()
   })
+  it('hello world foregroundColor', () => {
+    const component = renderToString(
+      <QRCode
+        text='hello world'
+        foregroundColor='#f90000'
+        backgroundColor='#ffffff'
+      />,
+    )
+    expect(component).toMatchSnapshot()
+  })
 })

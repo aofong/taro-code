@@ -11,6 +11,8 @@ export interface QRCodeProps {
    */
   typeNumber?: number
   errorCorrectLevel?: 'L' | 'M' | 'Q' | 'H'
+  foregroundColor: string
+  backgroundColor: string
 }
 
 declare const QRCode: React.SFC<QRCodeProps>
