@@ -1,6 +1,6 @@
 {
-  "name": "taro-code",
-  "version": "2.2.0",
+  "name": "taro-code-2",
+  "version": "2.3.0",
   "description": "Taro.js barcode & qrcode",
   "homepage": "https://github.com/miaonster/taro-code",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "dev:weapp": "taro build --type weapp --watch",
     "update": "taro update self && taro update project",
     "test": "jest",
-		"lint": "eslint \"{src,apps,libs,test}/**/*.js\" --fix",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.js\" --fix",
     "release": "standard-version"
   },
   "husky": {
